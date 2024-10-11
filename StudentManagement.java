@@ -53,9 +53,9 @@ public class StudentManagement {
 		}
 		for (int i = silinecekId; i < ogrenciSayisi - 1; i++) {
 			String[] newOgrenciDizisi = new String[OGRENCI_KAPASITESI];
-			newOgrenciDizisi[i] = Arrays.toString(ogrencilerDizisi[i+1 ]); // Elemanları kaydır
+			newOgrenciDizisi[i] = Arrays.toString(ogrencilerDizisi[i+1 ]); 
 		}
-		ogrenciSayisi--; // Öğrenci sayısını bir azalt
+		ogrenciSayisi--; 
 		System.out.println("Öğrenci silindi.");
 	}
 	
